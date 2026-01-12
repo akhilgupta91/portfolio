@@ -2,7 +2,7 @@
 
 A professional portfolio website showcasing my experience as a Cloud Solution Architect.
 
-**Live Site:** [https://portfolio-akhilgupta91.vercel.app](https://portfolio-akhilgupta91.vercel.app) *(update with your actual Vercel URL)*
+**Live Site:** [https://www.akhilgupta.cloud](https://www.akhilgupta.cloud)
 
 ---
 
@@ -178,15 +178,13 @@ git push
 
 ---
 
-## Adding a Custom Domain (Optional)
+## Custom Domain
 
-Want `www.akhilgupta.com` instead of `portfolio-xyz.vercel.app`?
+This site uses the custom domain **akhilgupta.cloud** purchased from Porkbun and connected to Vercel.
 
-1. Buy a domain from [Namecheap](https://namecheap.com), [Google Domains](https://domains.google), or [GoDaddy](https://godaddy.com)
-2. In Vercel dashboard, go to your project → Settings → Domains
-3. Add your custom domain
-4. Follow Vercel's instructions to update your domain's DNS settings
-5. Wait 24-48 hours for DNS to propagate
+**DNS Setup (already configured):**
+- A record pointing to Vercel's IP
+- Vercel handles SSL certificates automatically
 
 ---
 
