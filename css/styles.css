@@ -723,6 +723,17 @@ img {
     border-color: var(--color-primary);
 }
 
+.contact-calendly {
+    background: linear-gradient(135deg, #006bff 0%, #0052cc 100%);
+    color: white;
+    border-color: #006bff;
+}
+
+.contact-calendly:hover {
+    background: linear-gradient(135deg, #0052cc 0%, #003d99 100%);
+    border-color: #0052cc;
+}
+
 .contact-link svg {
     flex-shrink: 0;
 }
