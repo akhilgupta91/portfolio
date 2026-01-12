@@ -288,23 +288,6 @@ img {
     text-shadow: 2px 2px 0 var(--color-black);
 }
 
-/* Typewriter effect */
-.typewriter {
-    overflow: hidden;
-    border-right: 3px solid var(--color-accent);
-    white-space: nowrap;
-    animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: var(--color-accent); }
-}
 
 .hero-tagline {
     font-family: var(--font-retro);
@@ -451,23 +434,6 @@ img {
     position: relative;
 }
 
-.pixel-frame::before {
-    content: '';
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30px;
-    height: 30px;
-    background: var(--color-accent);
-    border: 3px solid var(--color-black);
-    animation: coinSpin 1s ease infinite;
-}
-
-@keyframes coinSpin {
-    0%, 100% { transform: translateX(-50%) scaleX(1); }
-    50% { transform: translateX(-50%) scaleX(0.3); }
-}
 
 .profile-photo {
     width: 300px;

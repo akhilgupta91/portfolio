@@ -297,22 +297,6 @@ function activateKonamiCode() {
     }, 5000);
 }
 
-// ===== TYPEWRITER EFFECT RESTART ON SCROLL =====
-const typewriterElement = document.querySelector('.typewriter');
-if (typewriterElement) {
-    const typewriterObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.animation = 'none';
-                setTimeout(() => {
-                    entry.target.style.animation = 'typing 3s steps(25, end), blink-caret 0.75s step-end infinite';
-                }, 10);
-            }
-        });
-    }, { threshold: 0.5 });
-
-    typewriterObserver.observe(typewriterElement);
-}
 
 // ===== RANDOM COIN SPAWN =====
 function spawnCoin() {
